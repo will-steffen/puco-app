@@ -1,0 +1,65 @@
+
+.master-div{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(179, 179, 179);
+    float: left;
+    button{
+        display: inline-block;
+        width: calc(25% - 3px);
+        background-color: rgb(143, 143, 197);
+        height: 10vh;
+        user-select: none;
+        border: none;
+        outline: none;
+        &:active{
+            background-color: rgb(86, 86, 189);;
+        }
+    }
+}
+
+.field-block{    
+    display: inline-block;
+    margin-bottom: -4px;
+}
+
+.bad{
+    background:
+        linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+        linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+        linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+        linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+        linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+        linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+        background-color: #131313;
+        background-size: 20px 20px;
+}
+
+.ok{
+    background: radial-gradient(circle, #9cb569 0%, #47694a 98%, #225a26 100%);
+} 
+
+#control_buttons{
+    // display: none;
+}
+
+#block_sequence{
+    display: none;
+    padding: 10px;
+    .buttons {
+        text-align: center;
+    }
+    #selected_blocks{
+        height: calc(80vh - 40px);
+        background-color: rgb(201, 201, 201);
+        margin: 10px 0; 
+        div{
+            padding: 3px;
+        }
+        .on-exec{
+            background-color: green;
+            color: white;
+        }
+    }
+}
+

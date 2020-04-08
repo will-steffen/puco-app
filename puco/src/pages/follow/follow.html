@@ -1,0 +1,27 @@
+<div #tableDivId class="master-div"></div>
+
+<div id="input_div_id" class="master-div">
+
+    <div id="control_buttons">
+        <button (click)="controlUp()">/\\</button>
+        <button (click)="controlDown()">\\/</button>
+        <button (click)="controlLeft()"><-</button> 
+        <button (click)="controlRight()">-></button>
+    </div>
+
+    <div id="block_sequence">
+        <div id="block_run_buttons" class="buttons">
+            <button id="btn_cmd_up">/\\</button>
+            <button id="btn_cmd_down">\\/</button>
+            <button id="btn_cmd_left"><-</button>
+            <button id="btn_cmd_right">-></button>
+        </div>
+        <div id="selected_blocks"></div>
+        <div id="block_options" class="buttons">
+            <button id="btn_cmd_erase">Apagar</button>
+            <button id="btn_cmd_clear">Limpar</button>
+            <button id="btn_cmd_run">Executar</button> 
+        </div>        
+    </div>  
+
+</div>

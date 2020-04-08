@@ -1,0 +1,7 @@
+{
+  "name": "puco",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
